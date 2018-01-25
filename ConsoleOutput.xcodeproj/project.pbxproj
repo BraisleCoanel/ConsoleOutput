@@ -6,6 +6,11 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B7052C0B201A74FB0033A6DA /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7052C09201A74FB0033A6DA /* Controller.cpp */; };
+		B7052C10201A75170033A6DA /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7052C0F201A75170033A6DA /* Runner.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B7052BFC201A744D0033A6DA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		B7052BFE201A744D0033A6DA /* ConsoleOutput */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleOutput; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7052C09201A74FB0033A6DA /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		B7052C0A201A74FB0033A6DA /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		B7052C0F201A75170033A6DA /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,19 @@
 		B7052C00201A744D0033A6DA /* ConsoleOutput */ = {
 			isa = PBXGroup;
 			children = (
+				B7052C08201A74EA0033A6DA /* Controller */,
 			);
 			path = ConsoleOutput;
+			sourceTree = "<group>";
+		};
+		B7052C08201A74EA0033A6DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7052C09201A74FB0033A6DA /* Controller.cpp */,
+				B7052C0A201A74FB0033A6DA /* Controller.hpp */,
+				B7052C0F201A75170033A6DA /* Runner.cpp */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7052C0B201A74FB0033A6DA /* Controller.cpp in Sources */,
+				B7052C10201A75170033A6DA /* Runner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
